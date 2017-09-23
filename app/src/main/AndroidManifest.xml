@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.katarzkubat.musicapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+            <activity android:name="EntryActivity"
+                android:label="@string/Entry">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:label="@string/Choice"/>
+
+        <activity android:name=".SearchActivity"
+            android:label="@string/Search"/>
+
+        <activity android:name=".WaltzesActivity"
+            android:label="@string/Waltzes"/>
+
+        <activity android:name=".ScherzosActivity"
+            android:label="@string/Scherzos"/>
+
+        <activity android:name=".PreludesActivity"
+            android:label="@string/Preludes"/>
+
+        <activity android:name=".PolonaisesActivity"
+            android:label="@string/Polonaises"/>
+
+        <activity android:name=".EtudesActivity"
+            android:label="@string/Etudes"/>
+
+        <activity android:name=".PlaylistActivity"
+            android:label="@string/Other"/>
+
+        <activity android:name=".MazurkasActivity"
+        android:label="@string/Mazurkas"/>
+
+        <activity android:name=".PlaynowActivity"
+            android:label="@string/Play"/>
+
+    </application>
+
+</manifest>

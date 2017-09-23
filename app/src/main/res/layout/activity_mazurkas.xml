@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_mazurkas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context="com.example.katarzkubat.musicapp.MazurkasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/infoText"
+            android:text="@string/Mazurkas_info"/>
+
+        <Button
+            android:id="@+id/record1"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@mipmap/ic_play"
+            android:text="@string/Record" />
+
+        <View
+            style="@style/view"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/record2"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@mipmap/ic_play"
+            android:text="@string/Record" />
+
+        <View
+            style="@style/view"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/record3"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@mipmap/ic_play"
+            android:text="@string/Record" />
+
+        <View
+            style="@style/view"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/record4"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@mipmap/ic_play"
+            android:text="@string/Record" />
+
+        <View
+            style="@style/view"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/record5"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@mipmap/ic_play"
+            android:text="@string/Record" />
+
+        <View
+            style="@style/view"
+            android:layout_width="match_parent" />
+
+        <Button
+            android:id="@+id/record6"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@mipmap/ic_play"
+            android:text="@string/Record" />
+
+        <View
+            style="@style/view"
+            android:layout_width="match_parent" />
+
+    </LinearLayout>
+</ScrollView>

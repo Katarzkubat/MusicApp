@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.katarzkubat.musicapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/infoText"
+        android:text="@string/Main_info"/>
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/searchHeight"
+        android:queryHint="@string/Search1" />
+
+    <View
+        style="@style/view"
+        android:layout_width="match_parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_etudes"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_note"
+                android:text="@string/Etudes" />
+
+            <View
+                style="@style/view"
+                android:layout_width="match_parent" />
+
+            <Button
+                android:id="@+id/button_mazurkas"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_note"
+                android:text="@string/Mazurkas" />
+
+            <View
+                style="@style/view"
+                android:layout_width="match_parent" />
+
+            <Button
+                android:id="@+id/button_polonaises"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_note"
+                android:text="@string/Polonaises" />
+
+            <View
+                style="@style/view"
+                android:layout_width="match_parent" />
+
+            <Button
+                android:id="@+id/button_waltzes"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_note"
+                android:text="@string/Waltzes" />
+
+            <View
+                style="@style/view"
+                android:layout_width="match_parent" />
+
+            <Button
+                android:id="@+id/button_preludes"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_note"
+                android:text="@string/Preludes" />
+
+            <View
+                style="@style/view"
+                android:layout_width="match_parent" />
+
+            <Button
+                android:id="@+id/button_scherzos"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_note"
+                android:text="@string/Scherzos" />
+
+            <View
+                style="@style/view"
+                android:layout_width="match_parent" />
+
+            <Button
+                android:id="@+id/button_other"
+                style="@style/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_note"
+                android:text="@string/Other" />
+
+            <View
+                style="@style/view"
+                android:layout_width="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

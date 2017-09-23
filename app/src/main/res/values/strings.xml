@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="start_button">Go to</string>
+    <string name="Entry">Frédéric Chopin music</string>
+    <string name="intro">Piano works by Frédéric Chopin: mazurkas, etudes, polonaises, waltzes, nocturnes, preludes, ballades and more. </string>
+    <string name="Etudes">Etudes</string>
+    <string name="Mazurkas">Mazurkas</string>
+    <string name="Polonaises">Polonaises</string>
+    <string name="Waltzes">Waltzes</string>
+    <string name="Preludes">Preludes</string>
+    <string name="Scherzos">Scherzos</string>
+    <string name="Other">Your playlist</string>
+    <string name="Play">Play now</string>
+    <string name="Record">Piece of music</string>
+    <string name="Search">Search results</string>
+    <string name="Choice">Choose piece of music</string>
+    <string name="Search1">Search</string>
+    <string name="time">0:04/15:45</string>
+    <string name="Introduction">Chopin composed 59 Mazurkas (there seem to be at least another 2 unfinished sketches) and many of his other works of different genres are either inspired by the Mazurka or have parts of Mazurkas within them. Chopin did, of course, not invent the Mazurka form. However, it was he alone who put the Mazurka on the public stage and refined it into the highest art of music.</string>
+    <string name="Entry_info">This activity (explicit intent) it is entry that allow user to navigate to main activity (containing menu)</string>
+    <string name="Main_info">This activity contains buttons and SearchView allowing users to enter a search query (explicit intent) and submit a request to a search provider connected with MediaStore.audio. Buttons refer to explicit intents opening defined lists of mp3 files that are stored in MediaStore.audio. </string>
+    <string name="Etudes_info">Etudes activity displays a list of records belonging to Etudes mp3 album stored in MediaStore.audio. By clicking chosen button users starts Playnow intent, going to MediaPlayer API (explicit intent).</string>
+    <string name="Mazurkas_info">Mazurkas activity displays a list of records belonging to Mazurkas mp3 album stored in MediaStore.audio. By clicking chosen button users starts Playnow intent, going to MediaPlayer API (explicit intent).</string>
+    <string name="Polonaise_info">Polonaises activity displays a list of records belonging to Polonaises mp3 album stored in MediaStore.audio. By clicking chosen button users starts Playnow intent, going to MediaPlayer API (explicit intent).</string>
+    <string name="Playlist_info">This activity displays a list of records defined as \'favourite\', stored in Favourite mp3 album in MediaStore.audio. Each record may be removed from this list/album by clicking deletebin icon. Each button opens Playnow activity with MediaPlaye API.</string>
+    <string name="Playnow_info">Play now activity contains MediaPlayer API allowing play chosen audio from stored mp3 albums (explicit intent). Title of current track is displayed. Favourite icon allows to add chosen piece of music to Favourite mp3 album (explicit intent). All audio sources are managed by AudioManager (explicit intent).</string>
+    <string name="Preludes_info">Preludes activity displays a list of records belonging to Preludes mp3 album stored in MediaStore.audio. By clicking chosen button users starts Playnow intent, going to MediaPlayer API (explicit intent).</string>
+    <string name="Scherzos_info">Scherzos activity displays a list of records belonging to Scherzos mp3 album stored in MediaStore.audio. By clicking chosen button users starts Playnow intent, going to MediaPlayer API (explicit intent).</string>
+    <string name="Search_info">Search activity displays a list of search results (mp3 belonging to different albums stored in MediaStore.audio). Each button opens (explicit intents) Playnow activity with MediaPlayer API. </string>
+    <string name="Waltzes_info">Waltzes activity displays a list of records belonging to Waltzes mp3 album stored in MediaStore.audio. By clicking chosen button users starts Playnow intent, going to MediaPlayer API (explicit intent).</string>
+</resources>
